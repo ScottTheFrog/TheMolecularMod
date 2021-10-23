@@ -1,0 +1,16 @@
+[
+{
+  "modid": "themolecularmod",
+  "name": "The Molecular Mod",
+  "description": "A science mod for minecraft.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["ScottTheFrog"],
+  "credits": "The Forge and FML guys, and myself hehe...",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
