@@ -1,0 +1,14 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "tmm:stick_block_xshaped",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "minecraft:stick",
+    "count": 5,
+    "data": 0
+  }
+}

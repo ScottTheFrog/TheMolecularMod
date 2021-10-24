@@ -1,6 +1,6 @@
 [
 {
-  "modid": "themolecularmod",
+  "modid": "ttm",
   "name": "The Molecular Mod",
   "description": "A science mod for minecraft.",
   "version": "${version}",
