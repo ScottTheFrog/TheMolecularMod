@@ -1,0 +1,26 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "tmm:leaf",
+	  "data": 0
+	},
+	{
+	  "item": "tmm:leaf",
+	  "data": 0
+	},
+	{
+	  "item": "tmm:leaf",
+	  "data": 0
+	},
+	{
+	  "item": "tmm:leaf",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "tmm:leaves",
+    "count": 2,
+    "data": 0
+  }
+}

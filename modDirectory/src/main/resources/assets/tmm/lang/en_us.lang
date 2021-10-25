@@ -1,4 +1,10 @@
 itemGroup.tabTutorialMod=MolecularMod
-item.leaves_item.name=Leaves
+
+item.leaf.name=Leaf
+item.leaves.name=Leaves
+tile.leaves_bush.name=Leaf Bush
+
+tile.ground_stone.name=Stone
+
 tile.stick_block.name=Stick Block
 tile.stick_block_xshape.name=Working Platform
