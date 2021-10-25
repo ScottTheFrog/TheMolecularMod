@@ -2,20 +2,20 @@
     "type": "minecraft:crafting_shaped",
     "pattern":
     [
-        "x x",
-        "   ",
-        "x x"
+        "xxx",
+        "xxx",
+        "xxx"
     ],
     "key":
     {
         "x":
         {
-            "item": "minecraft:stick"
+            "item": "tmm:ground_stone"
         }
     },
     "result":
     {
-        "item": "tmm:stick_block",
+        "item": "minecraft:cobblestone",
         "count": 1
     }
 }

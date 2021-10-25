@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "tmm:items/crude_stone_knife"
+        "layer0": "tmm:items/ground_stone"
      },
      
     "display": {
