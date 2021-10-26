@@ -1,9 +1,10 @@
 package modpackage;
 
 import modpackage.events.ChangeDrop;
-import modpackage.events.DestroyBlockOnRightClick;
 import modpackage.gen.StonePopulator;
 import modpackage.proxy.CommonProxy;
+import modpackage.tabs.MolecularModTab;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -16,6 +17,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MODID, name = Reference.MODNAME, version = Reference.VERSION)
 public class Main 
 {
+	public static final CreativeTabs molecularmodtab =  new MolecularModTab("molecularmodtab");
+	
 	@Instance
 	public static Main instance;
 	

@@ -6,5 +6,7 @@ tile.leaves_bush.name=Leaf Bush
 
 tile.ground_stone.name=Stone
 
+item.crude_stone_knife.name=Crude Stone Knife
+
 tile.stick_block.name=Stick Block
 tile.stick_block_xshape.name=Working Platform
