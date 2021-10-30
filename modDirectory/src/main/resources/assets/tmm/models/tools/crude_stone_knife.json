@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "tmm:items/stone_knife",
+		"0": "tmm:items/hand_stone_knife",
 		"1": "tmm:blocks/wood_plank",
-		"particle": "tmm:items/stone_knife"
+		"particle": "tmm:items/hand_stone_knife"
 	},
 	"elements": [
 		{

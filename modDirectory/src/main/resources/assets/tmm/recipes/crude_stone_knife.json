@@ -1,0 +1,22 @@
+{ 
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+	  "item": "tmm:grass_string",
+	  "data": 0
+	},
+	{
+	  "item": "tmm:hand_stone_knife",
+	  "data": 0
+	},
+	{
+	  "item": "minecraft:stick",
+	  "data": 0
+	}
+  ],
+  "result": {
+    "item": "tmm:crude_stone_knife",
+    "count": 1,
+    "data": 0
+  }
+}

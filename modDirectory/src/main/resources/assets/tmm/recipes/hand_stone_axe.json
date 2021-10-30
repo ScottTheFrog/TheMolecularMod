@@ -2,13 +2,17 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-	  "item": "tmm:stick_block",
+	  "item": "tmm:ground_stone",
+	  "data": 0
+	},
+	{
+	  "item": "tmm:ground_stone",
 	  "data": 0
 	}
   ],
   "result": {
-    "item": "minecraft:stick",
-    "count": 4,
+    "item": "tmm:chisel",
+    "count": 1,
     "data": 0
   }
 }

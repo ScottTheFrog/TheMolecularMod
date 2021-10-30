@@ -2,6 +2,7 @@ package modpackage;
 
 import modpackage.events.ChangeDrop;
 import modpackage.gen.StonePopulator;
+import modpackage.init.ItemInit;
 import modpackage.proxy.CommonProxy;
 import modpackage.tabs.MolecularModTab;
 import net.minecraft.creativetab.CreativeTabs;
@@ -30,13 +31,14 @@ public class Main
 	}
 	@EventHandler
 	public static void init(FMLInitializationEvent event){
-		MinecraftForge.EVENT_BUS.register(ChangeDrop.class);
 		//MinecraftForge.EVENT_BUS.register(DestroyBlockOnRightClick.class);
+		MinecraftForge.EVENT_BUS.register(ChangeDrop.class);
 		MinecraftForge.TERRAIN_GEN_BUS.register(new StonePopulator());
 
 	}
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event) {
+		ItemInit.ModifyItems();
 	}
 	
 }

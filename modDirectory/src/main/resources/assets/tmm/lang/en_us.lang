@@ -3,10 +3,15 @@ itemGroup.tabTutorialMod=MolecularMod
 item.leaf.name=Leaf
 item.leaves.name=Leaves
 tile.leaves_bush.name=Leaf Bush
+item.grass_blades.name=Grass Blades
+item.grass_string.name=Grass String
 
 tile.ground_stone.name=Stone
+item.chisel.name=Chisel
 
+item_stone_knife.name=Stone Knife
 item.crude_stone_knife.name=Crude Stone Knife
+item.hand_stone_axe.name=Hand Axe
 
-tile.stick_block.name=Stick Block
-tile.stick_block_xshape.name=Working Platform
+
+itemGroup.MolecularModTab= Molecular Mod

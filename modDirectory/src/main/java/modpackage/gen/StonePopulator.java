@@ -15,11 +15,11 @@ public class StonePopulator {
 		Biome biome = world.getBiomeForCoordsBody(event.getPos());
 		Random rand = event.getRand();
 		if (event.getType() == DecorateBiomeEvent.Decorate.EventType.GRASS) {
-			if (rand.nextDouble() > 0.1) return;
-			int x = rand.nextInt(16) + 8;
-			int y = rand.nextInt(16) + 8;
+			if (rand.nextInt(4) > 4) return;
+			int x =8;
+			int y =8;
 			GroundStoneGenerator gen = new GroundStoneGenerator ();
-			gen.generate(world, rand, world.getHeight(event.getPos().add(x, 0, y)));
+			gen.generate(world, rand, event.getPos().add(x,0,y));
 		}
 	}
 }
